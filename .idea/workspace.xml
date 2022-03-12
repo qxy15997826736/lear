@@ -131,7 +131,7 @@
       <workItem from="1646838963667" duration="661000" />
       <workItem from="1646916154209" duration="725000" />
       <workItem from="1647000350450" duration="6096000" />
-      <workItem from="1647077300823" duration="1617000" />
+      <workItem from="1647077300823" duration="3055000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1647078635589</created>
@@ -157,7 +157,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
