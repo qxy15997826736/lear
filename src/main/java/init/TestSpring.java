@@ -19,5 +19,6 @@ public class TestSpring {
         UserDaoImp.save("teeg");
         UserDao userDao1 = (UserDao) context.getBean("userDao");
         userDao1.save("sss");
+        System.out.println("tetet");
     }
 }
