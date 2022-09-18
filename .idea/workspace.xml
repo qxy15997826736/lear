@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="594f580e-c92b-47f1-97ae-09be16a8e645" name="Changes" comment="测试" />
+    <list default="true" id="594f580e-c92b-47f1-97ae-09be16a8e645" name="Changes" comment="haha">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/init/TestDI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/init/TestSpring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/init/TestUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/init/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/init/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/init/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/init/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/init/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/study/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/study/StudentDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/study/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/study/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/study/TestAutoWired.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/study/spring.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +32,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="mybatis-config" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Mapper" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +68,9 @@
     </option>
   </component>
   <component name="ProjectId" id="266Mv2kB0c8kikypcAhzbIgvjB6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -60,18 +81,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../sm_dao/src/main/java/com/smdao" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\myWorkSpace\sm_dao\src\main\resources\com\dao\mapper" />
       <recent name="E:\code\myWorkSpace\SpringStudy\src\main\resources\init" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSpring">
+  <component name="RunManager" selected="Application.TestSpring (1)">
     <configuration name="TestAutoWired" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="study.TestAutoWired" />
       <module name="SpringStudy" />
@@ -85,12 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="init.TestDI" />
+    <configuration name="TestSM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sm.TestSM" />
       <module name="SpringStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="init.*" />
+          <option name="PATTERN" value="sm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aop.TestSpring" />
+      <module name="SpringStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +147,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestUserdao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smdao.test.TestUserdao" />
+      <module name="sm_dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smdao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestSpring" />
-        <item itemvalue="Application.TestDI" />
+        <item itemvalue="Application.TestSpring (1)" />
+        <item itemvalue="Application.TestUserdao" />
+        <item itemvalue="Application.TestSM" />
         <item itemvalue="Application.TestAutoWired" />
+        <item itemvalue="Application.TestSpring" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +183,24 @@
       <workItem from="1646916154209" duration="725000" />
       <workItem from="1647000350450" duration="6096000" />
       <workItem from="1647077300823" duration="3055000" />
+      <workItem from="1647175355436" duration="4030000" />
+      <workItem from="1647266994162" duration="4319000" />
+      <workItem from="1647439864017" duration="5111000" />
+      <workItem from="1647525684919" duration="4489000" />
+      <workItem from="1647611598915" duration="375000" />
+      <workItem from="1647612409813" duration="147000" />
+      <workItem from="1647612586942" duration="1530000" />
+      <workItem from="1647665493727" duration="604000" />
+      <workItem from="1647764648688" duration="3909000" />
+      <workItem from="1647784435024" duration="647000" />
+      <workItem from="1647785101911" duration="210000" />
+      <workItem from="1647785325962" duration="978000" />
+      <workItem from="1647954727270" duration="2352000" />
+      <workItem from="1649160302749" duration="2045000" />
+      <workItem from="1649250876569" duration="8000" />
+      <workItem from="1662389326522" duration="3067000" />
+      <workItem from="1662778352136" duration="1197000" />
+      <workItem from="1663069158835" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1647078635589</created>
@@ -140,11 +209,29 @@
       <option name="project" value="LOCAL" />
       <updated>1647078635589</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="haha">
+      <created>1647085080858</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647085080858</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -157,7 +244,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="dev" />
                       </list>
                     </value>
                   </entry>
@@ -172,7 +259,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="haha" />
+    <option name="LAST_COMMIT_MESSAGE" value="haha" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
